@@ -28,7 +28,6 @@ assets:
       - _assets/images
       - _assets/images/favicon
       - _assets/images/projets
-      - _assets/videos
       - _assets/js
       - _assets/_sass
       - _assets/_sass/base
