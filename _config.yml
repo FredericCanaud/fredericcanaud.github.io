@@ -1,10 +1,10 @@
-name: Sylvain METAYER
-bio: Développeur web sur Bordeaux
+name: Frédéric CANAUD
+bio: Etudiant en 2ème année de DUT Informatique
 lang: fr
 
 source: src
 destination: _site
-strict_front_matter: true 
+strict_front_matter: true
 
 collections:
     school_projects:
@@ -15,11 +15,11 @@ collections:
         output: true
         permalink: /entreprise/:title/
         sort_by: date
-    projects: 
+    projects:
         output: true
         permalink: /projet/:title/
         sort_by: date
-    companies: 
+    companies:
         sort_by: date
     formations:
         sort_by: date
@@ -27,7 +27,7 @@ collections:
         sort_by: date
 
 # twitter summary info
-description: Sylvain METAYER, étudiant en 5ème année à l'EPSI Bordeaux et développeur web à onepoint. 
+description: Frédéric CANAUD, étudiant en 2ème année en DUT Informatique à Limoges
 
 # Main picture
 picture: profile.png
@@ -41,15 +41,15 @@ resume-url: assets/CV.pdf
 permalink: /:categories/:title/
 
 # if you don't have any of social below, comment the line
-facebook: sylvain.metayer
-twitter: sylvain_metayer
+facebook: frederic.canaud
+twitter: airmethe
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
 linkedin: sylvainmetayer
 # youtube: myyoutube
 # spotify: 11128157349
-github: sylvainmetayer
+github: FredericCanaud
 # gitlab: mygitlab
 # lastfm: mylastfm
 # stackoverflow: 6187576/sylvain
@@ -58,16 +58,15 @@ github: sylvainmetayer
 # medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: contact@sylvainmetayer.fr
-devto: sylvainmetayer
+email: frederic.canaud@etu.unilim.fr
 
 authors:
     sylvainmetayer:
-        name: Sylvain METAYER
-        bio: Développeur web à Bordeaux
+        name: Frédéric CANAUD
+        bio: Etudiant en 2ème année de DUT Informatique
         picture: profile.png
-        twitter: sylvain_metayer
-        email: contact@sylvainmetayer.fr
+        twitter: Airmethe
+        email: frederic.canaud@etu.unilim.fr
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -96,15 +95,11 @@ jekyll-mentions:
     base_url: https://github.com
 
 rel_me:
-- https://github.com/sylvainmetayer
-- https://twitter.com/sylvain_metayer
-
-isso:
-    url: https://comments.sylvainmetayer.fr/main/
-    script: https://comments.sylvainmetayer.fr/main/js/embed.min.js
+- https://github.com/FredericCanaud
+- https://twitter.com/Airmethe
 
 # BUILD SETTINGS
-exclude: 
+exclude:
     - "travis.sh"
     - "Rakefile"
     - "README.md"
@@ -120,8 +115,8 @@ sass:
     sass_dir: _sass
     style: compressed # possible values: nested expanded compact compressed
 
-url: https://sylvainmetayer.fr
-production_url: https://sylvainmetayer.fr
+url: https://fredericcanaud.github.io
+production_url: https://fredericcanaud.github.io
 
 compress_html:
     ignore:
