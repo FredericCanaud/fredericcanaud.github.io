@@ -5,7 +5,7 @@ services:
   jekyll:
     environment:
       - JEKYLL_ENV=development
-    container_name: jekyll_sylvainmetayer
+    container_name: jekyll_fredericcanaud
     build: .
     labels:
       jekyll_docker_sylvainmetayer: true
@@ -19,11 +19,11 @@ services:
         - 127.0.0.1:4000:4000
     volumes:
         - .:/srv/jekyll
-  
+
   jekyll_prod:
     environment:
       - JEKYLL_ENV=production
-    container_name: jekyll_sylvainmetayer_production
+    container_name: jekyll_fredericcanaud_production
     build: .
     labels:
       jekyll_docker_sylvainmetayer: true
@@ -37,4 +37,3 @@ services:
         - 127.0.0.1:4001:4000
     volumes:
         - .:/srv/jekyll
-  
