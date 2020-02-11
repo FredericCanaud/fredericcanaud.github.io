@@ -3,7 +3,7 @@ layout: page
 title: Formations
 ---
 
-# Expériences professionnelles, certifications et formation
+# Expériences professionnelles, certifications et formations
 
 {% if site.companies.size > 0 %}
 <section class="list">
@@ -18,7 +18,7 @@ title: Formations
                     {% endif %}
                 </h3>
                 <aside>
-                {% asset "{{ company.logo }}" alt='{{ company.alt }}' %}
+                {{ company.logo }}
                 <!-- {% asset "{{ company.logo }}" alt='{{ company.alt }}' height="{{company.height}}" width="{{company.width}}" %} -->
                 </aside>
                 {{ company.content | markdownify }}
@@ -63,7 +63,7 @@ title: Formations
                 </h3>
                 <aside>
                 <!-- {% asset "{{ certification.logo }}" alt='{{ certification.alt }}' height="{{certification.height}}" width="{{certification.width}}" %} -->
-                {% asset "{{ certification.logo }}" alt='{{ certification.alt }}' %}
+                {{ certification.logo }}
                 </aside>
                 {{ certification.content | markdownify }}
                 <p>
@@ -82,7 +82,7 @@ title: Formations
                 <h3 class="title">{{ formation.title }}</h3>
                 <aside>
                 <!-- {% asset "{{ formation.logo }}" alt='Logo {{ formation.title }}' height="60" width="60" %} -->
-                {% asset "{{ formation.logo }}" alt='Logo {{ formation.title }}' %}
+                {{ formation.logo }}
                 </aside>
                 {{ formation.content | markdownify }}
                 <p>
