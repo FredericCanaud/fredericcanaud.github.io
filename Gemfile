@@ -8,7 +8,7 @@ group :jekyll_plugins do
     gem 'jekyll-email-protect'
     # Waiting for ivantsepp/jekyll-git_metadata#24 to be resolved.
     #gem 'jekyll-git_metadata'
-    gem 'jekyll-assets'
+    gem 'jekyll-assets', '~> 2.3.2'
     gem 'jekyll-fontawesome-svg'
     gem 'jekyll', '< 4.0.0'
 end
