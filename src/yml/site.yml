@@ -1,0 +1,17 @@
+name: fredericcanaud.github.io
+title: Frédéric CANAUD | Portfolio
+description: Site web Portfolio
+tags:
+  - portfolio
+email: frederic.canaud@etu.unilim.fr
+disqus_username: disqus_username
+show_hero: true
+menu:
+  - title: Home
+    url: /
+  - title: A propos de moi
+    url: /about
+  - title: Contact
+    url: /contact
+  - title: CV
+    url: /assets/CV.pdf
