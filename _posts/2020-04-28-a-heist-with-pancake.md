@@ -13,4 +13,4 @@ tags:
 author: fredericcanaud
 ---
 
-En cours de réalisation...
+## Inline HTML elements

@@ -1,24 +1,22 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # ------------------------------------------------------------------------------
 #
 # Program: initpost.sh
-# Author:  Vitor Britto
-# Description: script to create an initial structure for my posts.
+# Description: Script pour générer la structure de mon arborescence
 #
-# Usage: ./initpost.sh [options] <post name>
+# Utilisation: ./initpost.sh [options] <nom du post>
 #
 # Options:
-#   -h, --help        output instructions
-#   -c, --create      create post
+#   -h, --help        Commandes disponibles
+#   -c, --create      Créer un post
 #
 # Alias: alias newpost="bash ~/path/to/script/initpost.sh"
 #
-# Example:
-#   ./initpost.sh -c How to replace strings with sed
+# Exemple:
+#   ./initpost.sh -c "Mon super post qui déchire"
 #
-# Important Notes:
-#   - This script was created to generate new markdown files for my blog.
+#   J'utilise ce script pour créer les markdown de mon blog.
 #
 # ------------------------------------------------------------------------------
 
@@ -27,7 +25,7 @@
 # | VARIABLES                                                                  |
 # ------------------------------------------------------------------------------
 
-# CORE: Do not change these lines
+# CORE: NE PAS CHANGER CES LIGNES
 # ----------------------------------------------------------------
 POST_TITLE="${@:2:$(($#-1))}"
 POST_NAME="$(echo ${@:2:$(($#-1))} | sed -e 's/ /-/g' | sed "y/ABCDEFGHIJKLMNOPQRSTUVWXYZ/abcdefghijklmnopqrstuvwxyz/")"
@@ -37,15 +35,15 @@ FILE_NAME="${CURRENT_DATE}-${POST_NAME}.md"
 # ----------------------------------------------------------------
 
 
-# SETTINGS: your configuration goes here
+# PARAMÈTRES
 # ----------------------------------------------------------------
 
-# Set your destination folder
+# Chemin du répertoire
 BINPATH=$(cd `dirname $0`; pwd)
 POSTPATH="${BINPATH}/_posts"
 DIST_FOLDER="$POSTPATH"
 
-# Set your blog URL
+# Site web
 BLOG_URL="fredericcanaud.github.io""
 
 # Set your assets URL
@@ -55,25 +53,25 @@ ASSETS_URL="assets/img/"
 
 
 # ------------------------------------------------------------------------------
-# | UTILS                                                                      |
+# | OUTILS                                                                      |
 # ------------------------------------------------------------------------------
 
-# Header logging
+# Connexion Header
 e_header() {
     printf "$(tput setaf 38)→ %s$(tput sgr0)\n" "$@"
 }
 
-# Success logging
+# Succès
 e_success() {
     printf "$(tput setaf 76)✔ %s$(tput sgr0)\n" "$@"
 }
 
-# Error logging
+# Erreur
 e_error() {
     printf "$(tput setaf 1)✖ %s$(tput sgr0)\n" "$@"
 }
 
-# Warning logging
+# Avertissement
 e_warning() {
     printf "$(tput setaf 3)! %s$(tput sgr0)\n" "$@"
 }
