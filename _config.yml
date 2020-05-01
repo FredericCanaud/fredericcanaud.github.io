@@ -1,4 +1,4 @@
-# Site Settings
+# Paramètres du site
 name: Frédéric CANAUD
 title: Frédéric CANAUD | Portfolio
 description: Mon site web Portfolio inspiré l'interface de Netflix
@@ -22,30 +22,29 @@ menu:
     url: /assets/CV.pdf
 
 
-# Social Media Settings
-# Remove the item if you don't need it
+# Paramètres des Réseaux sociaux
 github_username: FredericCanaud
 twitter_username: Airmethe
 linkedin_username: frederic-canaud
 
 
-# Posts Settings
+# Paramètres des posts
 show_time_bar: true
 show_modal_on_exit: false
 show_modal_on_finish_post: true
 two_columns_layout: true
 
 
-# Advanced Settings
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+# Paramètres avancées
+baseurl: "" # Si besoin de rajouter un sous-répertoire comme base du site
+url: "" # Si le site a besoin d'un nome d'hôte ou d'un protocole dans l'URL
 google_analytics: "UA-XXXXXXXX-X"
 language: "en"
 categories_folder: category
 sent_message_url: "/contact/message-sent/"
 
 
-# Build settings
+# Paramètres généraux
 markdown: kramdown
 highlighter: rouge
 permalink: /:title/
@@ -56,7 +55,7 @@ paginate_path: "/page/:num/"
 show_get_theme_btn: true
 use_logo: false
 
-# Content paginator
+# Pagination
 paginate_content:
   enabled: true
   debug: false
@@ -83,7 +82,6 @@ plugins:
   - jekyll-paginate
   - jekyll-paginate-content
 
-# Exclude my node related stuff
 exclude: [
   'package.json',
   'package-lock.json',
@@ -96,5 +94,5 @@ exclude: [
   'README.md'
 ]
 
-# Theme
+# Thème
 version: v2.0.1
