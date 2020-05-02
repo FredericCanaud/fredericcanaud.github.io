@@ -25,10 +25,10 @@ On reproduit alors par une approche algorithmique et mathématique les phénomè
 
 ### Présentation du projet
 
-J'ai été introduit à cette technique au cours de la deuxième année de mon DUT Informatique avec le dernier module d'algorithmie. Notre professeur nous a donc fourni en début de projet le code de l'ensemble des structures de données influant le lancer de rayon (la caméra, la lumière, les objets 3D...). C'était alors à nous de réaliser toutes les méthodes nécessaires afin de réaliser le lancer de rayons, correspondant à l'image ci-dessus.
+J'ai été introduit à cette technique au cours de la **deuxième année de mon DUT** dans le dernier module d'algorithmie. Notre professeur nous a donc fourni en début de projet le code de l'ensemble des structures de données influant le lancer de rayon (la caméra, la lumière, les objets 3D...). C'était alors à nous de réaliser toutes les méthodes nécessaires afin de réaliser le lancer de rayons, correspondant à l'image ci-dessus.
 
-La base du code est la propriété du laboratoire XLIM à Limoges, auquel le professeur avait retiré les algorithmes des calculs les plus importants et que nous devions reproduire à l'aide de notre cours.
+La base du code est la propriété du **laboratoire XLIM à Limoges**, auquel le professeur avait retiré les algorithmes des calculs les plus importants et que nous devions reproduire à l'aide de notre cours.
 
 ### Et où je peux retrouver ce code ?
 
-Comme dit ci-dessus, le code appartient au laboratoire XLIM. Je ne peux donc le partager.
+Comme dit ci-dessus, le code appartient au **laboratoire XLIM**. Je ne peux donc le partager.
