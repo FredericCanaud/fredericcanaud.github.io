@@ -23,25 +23,25 @@ Nous devions vérifier (manuellement) que la grammaire ci dessous, est bien LL(1
 
 ## Grammaire du langage
 
-Programme ::=main() {liste_declarations liste_instructions}
+Programme ::= | main() {liste_declarations liste_instructions}
 
-liste_declarations ::= une_declaration liste_declarations | vide
+liste_declarations ::= | une_declaration liste_declarations | vide
 
-une_declaration ::= type id
+une_declaration ::= | type id
 
-liste_instructions ::= une_instruction liste_instructions | vide
+liste_instructions ::= | une_instruction liste_instructions | vide
 
-une_instruction ::= affectation | test
+une_instruction ::= | affectation | test
 
-type ::= int | float
+type ::= | int | float
 
-affectation ::= id=nombre;
+affectation ::= | id=nombre;
 
-test ::= if condition instruction else instruction>
+test ::= | if condition instruction else instruction>
 
-condition ::= id operateur nombre
+condition ::= | id operateur nombre
 
-operateur ::= < | > | =
+operateur ::= | < | > | =
 
 
 ## Fonctionnalités développées
