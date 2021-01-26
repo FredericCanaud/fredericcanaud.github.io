@@ -10,7 +10,6 @@ category: CTF
 tags:
   - CTF
   - Cybersécurité
-  - Web
   - Crypto
   - Forensics
 author: fredericcanaud

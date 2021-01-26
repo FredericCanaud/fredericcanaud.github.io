@@ -1,5 +1,5 @@
 ---
-date: 2020-04-28 12:00:00
+date: 2021-01-24 12:00:00
 layout: post
 title: Frédéric CANAUD
 subtitle: Etudiant en informatique, passionné par la cybersécurité et le développement web
