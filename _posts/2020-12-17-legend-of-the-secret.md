@@ -22,7 +22,7 @@ Il s'agit d'un classique **mini RPG de combat tour par tour** dans lequel peut s
 
 ## Système de combat
 
-Le système de combat tactique est le Triangle des Armes. En effet, les guerriers possèdent des **épées**, les lanciers des **lances* et les barbares possèdent des **haches**.
+Le système de combat tactique est le Triangle des Armes. En effet, les guerriers possèdent des **épées**, les lanciers des **lances** et les barbares possèdent des **haches**.
 Ainsi, on peut définir des forces et des faiblesses entre les classes : L’épée est plus forte que la hache, la hache est plus forte que la lance, et la lance est plus forte que l’épée.
 
 Quant aux deux autres classes, elles sont toutes les deux vulnérables aux trois premières classes, comme elles ne sont pas faites pour le corps à corps, mais possèdent une plus grande chance de faire des dégâts critiques. 
