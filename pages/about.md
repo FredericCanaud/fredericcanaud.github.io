@@ -9,6 +9,6 @@ permalink: /about/
 
 <h1 class="centre"> A propos de moi </h1>
 
-Je suis titulaire d’un Bac S (Mention Bien), et suis actuellement étudiant au sein de L’IUT du Limousin à Limoges (87), dans lequel j’effectue ma deuxième année de DUT Informatique .
+Je suis titulaire d’un Bac S (Mention Bien) et d'un DUT Informatique obtenu à L’IUT du Limousin à Limoges en 2018 (87). J'effectue actuellement une troisième année de Licence Informatique.
 
-J’effectuerais bientôt mon stage à EMAKINA, une agence de communication digitale au parc d’Ester Technopole à Limoges (87), dans laquelle je ferai du développement web autant backend que frontend.
+J’effectue également un stage à EMAKINA, une agence de communication digitale au parc d’Ester Technopole à Limoges (87), dans laquelle je fais du développement web autant backend que frontend.
