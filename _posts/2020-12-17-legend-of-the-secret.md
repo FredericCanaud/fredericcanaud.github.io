@@ -4,8 +4,8 @@ layout: post
 title: Legend of the Secret
 subtitle: Mini RPG de combat tour par tour en JavaFX
 description: Mini RPG de combat tour par tour en JavaFX
-image: /assets/img/uploads/lots.png
-optimized_image: /assets/img/uploads/lots2.png
+image: /assets/img/uploads/lots.jpg
+optimized_image: /assets/img/uploads/lots2.jpg
 category: Java
 tags:
   - Java
@@ -33,11 +33,11 @@ Le Mage possède au départ **deux sorts offensifs**, un petit et un autre coût
 
 Le joueur, après avoir passé la cinématique d'intro pourra choisir entre 3 sauvegardes pour créer son perso, avant de partir au combat !
 
-![Combat](/assets/img/uploads/lots3.png)
+![Combat](/assets/img/uploads/lots3.jpg)
 
 Il pourra également visiter la boutique du bon vieux René entre deux combats, afin d'acheter des armes plus puissantes, car les armes ont une durabilité non infinie !
 
-![Combat](/assets/img/uploads/lots4.png)
+![Combat](/assets/img/uploads/lots4.jpg)
 
 # Et je le trouve où ce projet ?
 

@@ -4,8 +4,8 @@ layout: post
 title: Rendu en synthèse d'images
 subtitle: Programme de rendu en synthèse d'images, et de lancer de rayons en C++
 description: Programme de rendu en synthèse d'images, et de lancer de rayons en C++
-image: /assets/img/uploads/syntheseImage.png
-optimized_image: /assets/img/uploads/syntheseImage2.png
+image: /assets/img/uploads/syntheseImage.jpg
+optimized_image: /assets/img/uploads/syntheseImage2.jpg
 category: C++
 tags:
   - C++

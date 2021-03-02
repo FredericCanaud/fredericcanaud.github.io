@@ -4,8 +4,8 @@ layout: post
 title: Le Parc à tes Risques
 subtitle: Projet Tutoré du semestre 2 de mon DUT Informatique
 description: Projet Tutoré du semestre 2 de mon DUT Informatique
-image: /assets/img/uploads/parcATesRisques.png
-optimized_image: /assets/img/uploads/parcATesRisques.png
+image: /assets/img/uploads/parcATesRisques.jpg
+optimized_image: /assets/img/uploads/parcATesRisques.jpg
 category: HTML
 tags:
   - HTML
