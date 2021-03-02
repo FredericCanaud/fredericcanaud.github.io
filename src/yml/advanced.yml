@@ -1,6 +1,5 @@
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "fredericcanaud.github.io"
-google_analytics: "UA-XXXXXXXX-X"
 language: "fr"
 categories_folder: category
 sent_message_url: "/contact/message-sent/"

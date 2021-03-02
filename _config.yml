@@ -38,7 +38,6 @@ two_columns_layout: true
 # Paramètres avancées
 baseurl: "" # Si besoin de rajouter un sous-répertoire comme base du site
 url: "" # Si le site a besoin d'un nome d'hôte ou d'un protocole dans l'URL
-google_analytics: "UA-XXXXXXXX-X"
 language: "en"
 categories_folder: category
 sent_message_url: "/contact/message-sent/"

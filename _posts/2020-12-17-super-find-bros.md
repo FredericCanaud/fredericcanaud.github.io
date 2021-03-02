@@ -5,7 +5,7 @@ title: Super Find Bros.
 subtitle: Site de rencontre pour joueurs de jeux vidéo en PHP
 description: Site de rencontre pour joueurs de jeux vidéo en PHP
 image: /assets/img/uploads/superFindBros.png
-optimized_image: /assets/img/uploads/superFindBros2.jpeg
+optimized_image: /assets/img/uploads/superFindBros2.png
 category: PHP
 tags:
   - PHP

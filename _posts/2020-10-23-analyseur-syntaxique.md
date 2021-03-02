@@ -5,7 +5,7 @@ title: Analyseur syntaxique descendant de grammaire LL(1)
 subtitle: Réalisation d'un analyseur syntaxique pour une grammaire donnée
 description: Réalisation d'un analyseur syntaxique pour une grammaire donnée
 image: /assets/img/uploads/analyseur.png
-optimized_image: /assets/img/uploads/analyseur.jpeg
+optimized_image: /assets/img/uploads/analyseur.png
 category: Python
 tags:
   - Python
