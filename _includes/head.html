@@ -33,8 +33,9 @@
         {% assign url = page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url %}
     {% endif %}
 
-    <title>{{ title }}</title>
-    <meta name="description" content="{{ description }}">
+    <title>Frédéric CANAUD</title>
+    <meta name="description" content="Site web portfolio inspiré de l'interface de Netflix">
+    <meta name="image" property="og:image" content="https://fredericcanaud.github.io/assets/img/uploads/photo1.jpg">
     {% if page.tags %}
         <meta name="keywords" content="{{ page.tags | join: ', ' }}">
     {% endif %}
@@ -48,12 +49,11 @@
         <meta name="twitter:site" content="@{{ site.twitter_username }}">
     {% endif %}
 
-    <!-- Social: Facebook / Open Graph -->
     <meta property="og:url" content="{{ url }}">
-    <meta property="og:title" content="{{ title }}">
-    <meta property="og:image" content="{{ image }}">
-    <meta property="og:description" content="{{ description }}">
-    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:title" content="Frédéric CANAUD">
+    <meta property="og:image" content="https://fredericcanaud.github.io/assets/img/uploads/photo1.jpg">
+    <meta property="og:description" content="Site web portfolio inspiré de l'interface de Netflix">
+    <meta property="og:site_name" content="Frédéric CANAUD">
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon" />
