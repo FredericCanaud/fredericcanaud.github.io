@@ -36,8 +36,8 @@ two_columns_layout: true
 
 
 # Paramètres avancées
-baseurl: "fredericcanaud.github.io"
-url: "fredericcanaud.github.io"
+baseurl:
+url:
 language: "en"
 categories_folder: category
 sent_message_url: "/contact/message-sent/"
