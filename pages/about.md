@@ -1,7 +1,6 @@
 ---
 layout: page
 title: A propos de moi
-description: Some description.
 permalink: /about/
 ---
 
@@ -9,6 +8,18 @@ permalink: /about/
 
 <h1 class="centre"> A propos de moi </h1>
 
-Je suis titulaire d’un Bac S (Mention Bien) et d'un DUT Informatique obtenu à L’IUT du Limousin à Limoges en 2018 (87). J'effectue actuellement une troisième année de Licence Informatique.
+Je suis titulaire :
 
-J’effectue également un stage à EMAKINA, une agence de communication digitale au parc d’Ester Technopole à Limoges (87), dans laquelle je fais du développement web autant backend que frontend.
+- D’un Bac S option Sciences de l'Ingénieur 2018 à Sarlat en Dordogne (24)
+- D'un DUT Informatique obtenu à l’IUT du Limousin en 2020 (87)
+- D'une Licence Informatique obtenue à la Faculté des Sciences et Techniques en 2021 (87).
+
+J’ai pu effecter également deux stages lors de mes deux formations à Emakina, une agence de communication digitale au parc d’Ester Technopole à Limoges (87), durant lesquels j'ai fait du développement web autant backend que frontend.
+
+<img src="/assets/img/uploads/emakina.jpg" alt="Logo Emakina">
+
+Je suis actuellement en première année du Master CRYPTIS à Limoges, en parcours Sécurité Informatique, et je suis à la recherche d'un contrat de six mois en entreprise afin de valider ma deuxième année.
+
+<img src="/assets/img/uploads/cryptis.jpg" alt="Logo Cryptis">
+
+Si toutefois vous souhaitez me proposer une offre, n'hésitez pas à me [contacter ! 😉](/contact) 
