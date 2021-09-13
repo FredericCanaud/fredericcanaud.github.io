@@ -4,8 +4,8 @@ layout: post
 title: Les "Katas Exercises"
 subtitle: Article sur les katas exercises, aka. Exercices de bonnes pratiques à la programmation
 description: Article sur les katas exercises, aka. Exercices de bonnes pratiques à la programmation
-image: https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559820489/js-code_n83m7a.jpg
-optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559820489/js-code_n83m7a.jpg
+image: /assets/img/uploads/kataExercise.jpg
+optimized_image: /assets/img/uploads/kataExercise2.jpg
 category: code
 tags:
   - Java
