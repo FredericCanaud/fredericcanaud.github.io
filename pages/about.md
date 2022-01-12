@@ -4,7 +4,7 @@ title: A propos de moi
 permalink: /about/
 ---
 
-<img class="img-rounded" src="/assets/img/uploads/avatar.jpg" alt="Frédéric CANAUD" width="200">
+<img class="img-rounded" src="/assets/img/uploads/avatar.webp" alt="Frédéric CANAUD" width="200">
 
 <h1 class="centre"> A propos de moi </h1>
 

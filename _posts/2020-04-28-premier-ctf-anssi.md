@@ -4,8 +4,8 @@ layout: post
 title: CTF ANSSI 2020 - France CyberSecurity Challenge
 subtitle: Premières impressions sur le France CyberSecurity Challenge (FCSC) de l'ANSSI
 description: Premières impressions sur le France CyberSecurity Challenge (FCSC) de l'ANSSI
-image: /assets/img/uploads/anssi2.jpg
-optimized_image: /assets/img/uploads/anssi.jpg
+image: /assets/img/uploads/anssi2.webp
+optimized_image: /assets/img/uploads/anssi.webp
 category: CTF
 tags:
   - CTF

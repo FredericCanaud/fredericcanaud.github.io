@@ -4,8 +4,8 @@ layout: post
 title: Le Super Bêtisier
 subtitle: Application Bêtisier de l'IUT Du Limousin réalisé en PHP
 description: Application Bêtisier de l'IUT Du Limousin réalisé en PHP
-image: /assets/img/uploads/betisier2.jpg
-optimized_image: /assets/img/uploads/betisier.jpg
+image: /assets/img/uploads/betisier2.webp
+optimized_image: /assets/img/uploads/betisier.webp
 category: PHP
 tags:
   - PHP

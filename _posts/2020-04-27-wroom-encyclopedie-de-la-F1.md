@@ -4,8 +4,8 @@ layout: post
 title: Wroom, l'encyclopédie de la F1
 subtitle: Application de GrandPrix de F1, réalisée en NodeJS
 description: Application de GrandPrix de F1, réalisée en NodeJS
-image: /assets/img/uploads/wroom2.jpg
-optimized_image: /assets/img/uploads/wroom.jpg
+image: /assets/img/uploads/wroom2.webp
+optimized_image: /assets/img/uploads/wroom.webp
 category: NodeJS
 tags:
   - NodeJS

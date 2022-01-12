@@ -4,8 +4,8 @@ layout: post
 title: WebGL ou l'Informatique Graphique
 subtitle: Présentation de mes deux projets d'informatique graphique en Three.JS
 description: Présentation de mes deux projets d'informatique graphique en Three.JS
-image: /assets/img/uploads/webgl.jpg
-optimized_image: /assets/img/uploads/webgl.jpg
+image: /assets/img/uploads/webgl.webp
+optimized_image: /assets/img/uploads/webgl.webp
 category: WebGL
 tags:
   - WebGL
