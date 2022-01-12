@@ -48,12 +48,12 @@ layout: main
                         {% if post.optimized_image %}
                             <img src="/assets/img/placeholder.png" width="100%" data-url="{{ post.optimized_image }}" class="preload">
                             <noscript>
-                                <img src="{{ post.optimized_image }}" width="100%">
+                                <img src="{{ post.optimized_image }}" width="615">
                             </noscript>
                         {% elsif post.image %}
                             <img src="/assets/img/placeholder.png" width="100%" data-url="{{ post.image }}" class="preload">
                             <noscript>
-                                <img src="{{ post.image }}" width="100%">
+                                <img src="{{ post.image }}" width="615">
                             </noscript>
                         {% else %}
                             <img src="/assets/img/placeholder.png" width="100%" data-url="/assets/img/off.jpg" class="preload">
