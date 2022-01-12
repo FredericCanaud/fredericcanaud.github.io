@@ -6,6 +6,7 @@ subtitle: Projet Tutoré du semestre 2 de mon DUT Informatique
 description: Projet Tutoré du semestre 2 de mon DUT Informatique
 image: /assets/img/uploads/parcATesRisques.webp
 optimized_image: /assets/img/uploads/parcATesRisques.webp
+alt: Le parc à tes risques
 category: HTML
 tags:
   - HTML

@@ -6,6 +6,7 @@ subtitle: Présentation de mes deux projets d'informatique graphique en Three.JS
 description: Présentation de mes deux projets d'informatique graphique en Three.JS
 image: /assets/img/uploads/webgl.webp
 optimized_image: /assets/img/uploads/webgl.webp
+alt: WebGL
 category: WebGL
 tags:
   - WebGL

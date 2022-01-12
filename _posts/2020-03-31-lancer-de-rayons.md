@@ -6,6 +6,7 @@ subtitle: Programme de rendu en synthèse d'images, et de lancer de rayons en C+
 description: Programme de rendu en synthèse d'images, et de lancer de rayons en C++
 image: /assets/img/uploads/syntheseImage.webp
 optimized_image: /assets/img/uploads/syntheseImage2.webp
+alt: Lancer de rayons
 category: C++
 tags:
   - C++

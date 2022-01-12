@@ -6,6 +6,7 @@ subtitle: Réalisation d'un analyseur syntaxique pour une grammaire donnée
 description: Réalisation d'un analyseur syntaxique pour une grammaire donnée
 image: /assets/img/uploads/analyseur.webp
 optimized_image: /assets/img/uploads/analyseur.webp
+alt: Analyseur syntaxique
 category: Python
 tags:
   - Python

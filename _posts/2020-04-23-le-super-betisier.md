@@ -6,6 +6,7 @@ subtitle: Application Bêtisier de l'IUT Du Limousin réalisé en PHP
 description: Application Bêtisier de l'IUT Du Limousin réalisé en PHP
 image: /assets/img/uploads/betisier2.webp
 optimized_image: /assets/img/uploads/betisier.webp
+alt: Bêtisier de l'IUT
 category: PHP
 tags:
   - PHP

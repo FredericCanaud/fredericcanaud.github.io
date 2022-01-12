@@ -6,6 +6,7 @@ subtitle: Space Invaders réalisé en Java en Test Driven Development (TDD) dura
 description: Space Invaders réalisé en Java en Test Driven Development (TDD) durant mon DUT Info
 image: /assets/img/uploads/spaceInvaders.webp
 optimized_image: /assets/img/uploads/spaceInvaders2.webp
+alt: Space Invaders
 category: Java
 tags:
   - Java

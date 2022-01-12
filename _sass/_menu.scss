@@ -76,7 +76,7 @@ aside.sidebar {
           display: block;
           padding: rem(15px) rem(20px);
           text-decoration: none;
-          @include mainFont(300);
+          @include mainFont(400);
           color: $primaryDark;
 
           &:hover {

@@ -6,6 +6,7 @@ subtitle: Premières impressions sur le France CyberSecurity Challenge (FCSC) de
 description: Premières impressions sur le France CyberSecurity Challenge (FCSC) de l'ANSSI
 image: /assets/img/uploads/anssi2.webp
 optimized_image: /assets/img/uploads/anssi.webp
+alt: Premier CTF ANSSI
 category: CTF
 tags:
   - CTF

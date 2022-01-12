@@ -6,6 +6,7 @@ subtitle: Etudiant en informatique, passionné par la cybersécurité et le dév
 description: Etudiant en informatique, passionné par la cybersécurité et le développement web
 image: /assets/img/uploads/photo1.webp
 optimized_image: /assets/img/uploads/photo1.webp
+alt: Frédéric Canaud
 category: life
 tags:
   - FredericCanaud

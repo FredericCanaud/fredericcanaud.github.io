@@ -6,6 +6,7 @@ subtitle: Application de GrandPrix de F1, réalisée en NodeJS
 description: Application de GrandPrix de F1, réalisée en NodeJS
 image: /assets/img/uploads/wroom2.webp
 optimized_image: /assets/img/uploads/wroom.webp
+alt: Wroom
 category: NodeJS
 tags:
   - NodeJS

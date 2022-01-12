@@ -6,6 +6,7 @@ subtitle: Mini RPG de combat tour par tour en JavaFX
 description: Mini RPG de combat tour par tour en JavaFX
 image: /assets/img/uploads/lots.webp
 optimized_image: /assets/img/uploads/lots2.webp
+alt: Legend of the secret
 category: Java
 tags:
   - Java
