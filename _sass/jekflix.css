@@ -1597,8 +1597,6 @@ body.light:not(.main-page) .bar-header {
     transition: all 0.3s; }
   .centre .icon-twitter:hover {
     fill: #1da1f3; }
-  .centre .icon-facebook:hover {
-    fill: #3b5998; }
 
 pre {
   background: #282a36;
