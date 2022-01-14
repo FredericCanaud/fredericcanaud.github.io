@@ -17,17 +17,16 @@ author: fredericcanaud
 
 # À propos de la programmation GPU
 
-**Super Find Bros.** est un projet PHP créé par moi et Thomas Campredon. Nous l'avons réalisé au cours du semestre 5 de mon Licence Informatique. Le but du projet était donc de nous initier au développement web avec la technologie PHP.
+La programmation **GPU** (ou GPUGPU pour General-Purpose computing on **Graphics Processing Units**) vise à exploiter la puissance des calculs qu'est capable une carte graphique, pour des tâches massivement parallélisables.
 
-Le sujet sur lequel portait le projet était un site de rencontres. 
-Nous avons choisi le thème des jeux-vidéo, car nous sommes trop des **G@M3RS** 😎.
+Tandis qu'un CPU est surtout dédié aux traitements de tâches rapides et séquentielles, les cartes graphiques apportent une nouvelle architecture de programmation très favorable au parallélisme.
+Le précurseur a surtout été Nvidia qui développe depuis 2007 une interface matérielle et un langage de programmation basé en C : **CUDA** (**C**ompute **U**nified **D**evice **A**rchitecture)
 
-Le site web permet aux joueurs de jeux vidéo de rencontrer d'autres personnes jouant à dex jeux communs, et de pouvoir communiquer et former des équipes pour pouvoir participer à des tournois avec moultes cashprices ;)
+# Cuda ? Comment ça marche ? 🤔
 
-# Fonctionnalités développées
+Avec CUDA, on sépare l'architecture CPU (appelé **Host**) de l'architecture GPU (appelé **Device**).
+L'hôte possède sa propre RAM contenant ses programmes et ses variables, tandis que le GPU ne gère que la mémoire disponible sur la carte graphique. Ils s'échangent des données bien 
 
-Ce projet nous aura donc permis d'approfondir nos connaissances en PHP déjà acquises à l'IUT.
-Pour ma part, j'ai surtout voulu améliorer mes compétences en frontend, en adoptant une philosophie qui m'est propre : ne pas développer avec Bootstrap.
 
 ## Sans Bootstrap ? Dites-donc ? 🤔
 
