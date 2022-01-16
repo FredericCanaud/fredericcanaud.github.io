@@ -1,5 +1,5 @@
 ---
-date: 2020-10-02
+date: 2020-10-23
 layout: post
 title: WebGL ou l'Informatique Graphique
 subtitle: Présentation de mes deux projets d'informatique graphique en Three.JS

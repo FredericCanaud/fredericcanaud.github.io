@@ -1,5 +1,5 @@
 ---
-date: 2020-10-23
+date: 2020-10-02
 layout: post
 title: Analyseur syntaxique descendant de grammaire LL(1)
 subtitle: Réalisation d'un analyseur syntaxique pour une grammaire donnée
