@@ -16,10 +16,11 @@ Je suis titulaire :
 
 J’ai pu effecter également deux stages lors de mes deux formations à Emakina, une agence de communication digitale au parc d’Ester Technopole à Limoges (87), durant lesquels j'ai fait du développement web autant backend que frontend.
 
-<img src="/assets/img/uploads/emakina.webp" alt="Logo Emakina">
+<img src="/assets/img/uploads/emakina3.webp" alt="Logo Emakina">
 
-Je suis actuellement en première année du Master CRYPTIS à Limoges, en parcours Sécurité Informatique, et je suis à la recherche d'un contrat de six mois en entreprise afin de valider ma deuxième année.
+Je suis actuellement en deuxième année du Master CRYPTIS à Limoges, en parcours Sécurité Informatique, et j'effectuerais dans le cadre de la fin de mon Master un stage de six mois au sein du laboratoire Xlim, encadré par Cristina Onete.
 
 <img src="/assets/img/uploads/cryptis.webp" alt="Logo Cryptis">
+<img width="50%" src="/assets/img/uploads/xlim.webp" alt="Logo XLIM">
 
 Si toutefois vous souhaitez me proposer une offre, n'hésitez pas à me [contacter ! 😉](/contact) 

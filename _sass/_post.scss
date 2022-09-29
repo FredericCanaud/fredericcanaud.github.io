@@ -255,16 +255,6 @@
     }
   }
 
-  hr {
-    @include center(rem(760px));
-    border: 1px solid $lightGray;
-    margin: 50px auto;
-  }
-
-  pre {
-    overflow-x: auto;
-  }
-
   table {
     @include mainFont(400);
     font-size: rem(17px);

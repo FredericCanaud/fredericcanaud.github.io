@@ -8,6 +8,7 @@ image: /assets/img/uploads/parcATesRisques.webp
 optimized_image: /assets/img/uploads/parcATesRisques.webp
 alt: Le parc à tes risques
 category: HTML
+type: Projet
 tags:
   - HTML
   - CSS
@@ -15,4 +16,4 @@ tags:
 author: fredericcanaud
 ---
 
-En cours de réalisation...
+En cours de réalisation =D

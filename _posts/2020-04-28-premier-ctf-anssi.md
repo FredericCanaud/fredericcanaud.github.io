@@ -8,6 +8,7 @@ image: /assets/img/uploads/anssi2.webp
 optimized_image: /assets/img/uploads/anssi.webp
 alt: Premier CTF ANSSI
 category: CTF
+type: Experience
 tags:
   - CTF
   - Cybersécurité

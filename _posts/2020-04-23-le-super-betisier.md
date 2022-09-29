@@ -8,6 +8,7 @@ image: /assets/img/uploads/betisier2.webp
 optimized_image: /assets/img/uploads/betisier.webp
 alt: Bêtisier de l'IUT
 category: PHP
+type: Projet
 tags:
   - PHP
   - JS

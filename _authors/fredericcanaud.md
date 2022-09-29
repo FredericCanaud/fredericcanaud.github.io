@@ -1,6 +1,6 @@
 ---
 layout: author
-photo: /assets/img/uploads/avatar.jpg
+photo: /assets/img/uploads/avatar.webp
 name: fredericcanaud
 display_name: Frédéric CANAUD
 position: Etudiant

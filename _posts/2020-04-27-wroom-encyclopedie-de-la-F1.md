@@ -8,6 +8,7 @@ image: /assets/img/uploads/wroom2.webp
 optimized_image: /assets/img/uploads/wroom.webp
 alt: Wroom
 category: NodeJS
+type: Projet
 tags:
   - NodeJS
   - JS

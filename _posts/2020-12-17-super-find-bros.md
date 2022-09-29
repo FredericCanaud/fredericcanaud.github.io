@@ -8,6 +8,7 @@ image: /assets/img/uploads/superFindBros.webp
 optimized_image: /assets/img/uploads/superFindBros2.webp
 alt: Super Find Bros.
 category: PHP
+type: Projet
 tags:
   - PHP
   - Web

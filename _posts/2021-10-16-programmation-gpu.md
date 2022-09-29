@@ -8,6 +8,7 @@ image: /assets/img/uploads/programmation-nvidia.webp
 optimized_image: /assets/img/uploads/programmation-nvidia.webp
 alt: Programmation GPU
 category: GPU
+type: Experience
 tags:
   - GPU
   - CUDA

@@ -8,6 +8,7 @@ image: /assets/img/uploads/syntheseImage.webp
 optimized_image: /assets/img/uploads/syntheseImage2.webp
 alt: Lancer de rayons
 category: C++
+type: Projet
 tags:
   - C++
   - POO

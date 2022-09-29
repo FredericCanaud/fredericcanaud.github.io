@@ -8,6 +8,7 @@ image: /assets/img/uploads/spaceInvaders.webp
 optimized_image: /assets/img/uploads/spaceInvaders2.webp
 alt: Space Invaders
 category: Java
+type: Projet
 tags:
   - Java
   - TDD

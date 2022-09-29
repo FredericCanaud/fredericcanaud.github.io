@@ -33,10 +33,77 @@ layout: main
             </div>
         </section>
     {% endif %}
+    <div style="width: 90%; margin: auto; padding-bottom: 2%; ">
+        <h2 style="color: white; margin: 0; font-size: 300%;">Expériences</h2>
+    </div>
     <!-- Posts -->
     <section id="grid" class="row flex-grid">
         {% for post in posts offset: offset %}
-            <article class="box-item">
+        {% if post.type == 'Experience' %}
+
+        <article class="box-item">
+                <span class="category">
+                    <a href="{{ site.baseurl }}/{{ site.categories_folder | default: 'category' }}/{{ post.category }}">
+                        <span>{{ post.category }}</span>
+                    </a>
+                </span>
+            <div class="box-body">
+                <a class="cover" href="{{ post.url | prepend: site.baseurl }}">
+                    {% include loader.html %}
+                    {% if post.optimized_image %}
+                    <img src="/assets/img/placeholder.png" width="100%" height="100%" data-url="{{ post.optimized_image }}" class="preload" alt="{{ post.alt }}">
+                    <noscript>
+                        <img src="{{ post.optimized_image }}" width="100%" height="100%" alt="{{ post.alt }}">
+                    </noscript>
+                    {% elsif post.image %}
+                    <img src="/assets/img/placeholder.png" width="100%" height="100%" data-url="{{ post.image }}" class="preload" alt="{{ post.alt }}">
+                    <noscript>
+                        <img src="{{ post.image }}" width="100%" height="100%" height="100%" alt="{{ post.alt }}">
+                    </noscript>
+                    {% else %}
+                    <img src="/assets/img/placeholder.png" width="100%" height="100%" data-url="/assets/img/off.jpg" class="preload">
+                    <noscript>
+                        <img src="/assets/img/off.jpg" width="100%" height="100%">
+                    </noscript>
+                    {% endif %}
+                    {% include new-post-tag.html date=post.date %}
+                    {% include read-icon.html %}
+                </a>
+                <div class="box-info">
+                    <time datetime="{{ post.date | date_to_xmlschema }}" class="date">
+                        {% include date.html date=post.date %}
+                    </time>
+                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                        <h2 class="post-title">
+                            {{ post.title }}
+                        </h2>
+                    </a>
+                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                        <p class="description">{{ post.description }}</p>
+                    </a>
+                    <div class="tags">
+                        {% for tag in post.tags %}
+                        {% if tag != "" %}
+                        <a href="{{ site.baseurl}}/tags/#{{tag | slugify }}">#{{ tag }}</a>
+                        {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </article>
+        {% endif %}
+
+        {% endfor %}
+    </section>
+    <div style="width: 90%; margin: auto; padding-bottom: 2%; ">
+        <h2 style="color: white; margin: 0; font-size: 300%;">Projets</h2>
+    </div>
+    <!-- Posts -->
+    <section id="grid" class="row flex-grid">
+        {% for post in posts offset: offset %}
+        {% if post.type == 'Projet' %}
+
+        <article class="box-item">
                 <span class="category">
                     <a href="{{ site.baseurl }}/{{ site.categories_folder | default: 'category' }}/{{ post.category }}">
                         <span>{{ post.category }}</span>
@@ -86,8 +153,11 @@ layout: main
                     </div>
                 </div>
             </article>
+        {% endif %}
+
         {% endfor %}
     </section>
+
     <!-- Pagination -->
     {% if site.paginate %}
         {% include pagination-home.html %}

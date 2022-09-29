@@ -8,6 +8,7 @@ image: /assets/img/uploads/heistWithPancake.webp
 optimized_image: /assets/img/uploads/heistWithPancake2.webp
 alt: A Heist with Pancake
 category: C#
+type: Projet
 tags:
     - C#
     - TDD

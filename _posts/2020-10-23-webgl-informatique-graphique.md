@@ -8,6 +8,7 @@ image: /assets/img/uploads/webgl.webp
 optimized_image: /assets/img/uploads/webgl.webp
 alt: WebGL
 category: WebGL
+type: Projet
 tags:
   - WebGL
   - Three.JS

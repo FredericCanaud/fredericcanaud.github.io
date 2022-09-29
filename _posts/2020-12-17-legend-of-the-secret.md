@@ -8,6 +8,7 @@ image: /assets/img/uploads/lots.webp
 optimized_image: /assets/img/uploads/lots2.webp
 alt: Legend of the secret
 category: Java
+type: Projet
 tags:
   - Java
   - POO

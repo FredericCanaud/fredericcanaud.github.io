@@ -2,7 +2,7 @@
 
 # ------------------------------------------------------------------------------
 #
-# Program: initpost.sh
+# Programme: initpost.sh
 # Description: Script pour générer la structure de mon arborescence
 #
 # Utilisation: ./initpost.sh [options] <nom du post>

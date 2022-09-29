@@ -8,6 +8,7 @@ image: /assets/img/uploads/analyseur.webp
 optimized_image: /assets/img/uploads/analyseur.webp
 alt: Analyseur syntaxique
 category: Python
+type: Projet
 tags:
   - Python
   - Compilation
